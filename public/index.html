@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Devchallenges</title>
+  </head>
+  <body class="bg-zinc-900 text-white">
+  <div class="bg-zinc-900 inset-0 absolute flex justify-center items-center flex-col z-50 hidden h-full" id="modal">
+   <button id="close-modal"> <svg xmlns="http://www.w3.org/2000/svg" class="fill-white absolute top-6 right-4" height="40" width="40"><path d="m10.417 31.625-1.959-2.042L18 20l-9.542-9.625 1.959-2.042 9.625 9.625 9.541-9.625 1.959 2.042L22 20l9.542 9.583-1.959 2.042-9.541-9.667Z"/></svg> </button>
+      <a
+        href="#home"
+        class="font-Monts font-bold capitalize hover:underline underline-offset-8 decoration-2 pb-8 tags"
+        >Home</a
+      >
+      <a href="#collection" class="font-Monts hover:underline underline-offset-8 decoration-2 capitalize pb-8 tags">Collection</a>
+      <a href="#about" class="font-Monts hover:underline underline-offset-8 decoration-2 capitalize pb-8 tags">About</a>
+      <a href="#contact" class="font-Monts hover:underline underline-offset-8 decoration-2 capitalize pb-8 tags">Contact</a>
+    </div>
+    <!-- <div class="bg-red-700 absolute inset-0 z-50"> -->
+
+    </div>
+    <div
+      class="w-11/12 mx-auto uppercase mt-6 flex justify-between my-10 sm:w-9/12 lg:w-11/12 lg:mb-24 z-10"
+      >
+      <h2
+        class="border border-white border-solid inline p-2 font-crimson font-extralight lg:text-md"
+      >
+        This interior
+      </h2>
+      <div class="w-2/5 justify-between items-center hidden lg:block lg:flex">
+        <a
+          href="#home"
+          class="font-Monts capitalize hover:underline underline-offset-8 decoration-2 "
+          >Home</a
+        >
+        <a href="#collection" class="font-Monts capitalize hover:underline underline-offset-8 decoration-2">Collection</a>
+        <a href="#about" class="font-Monts capitalize hover:underline underline-offset-8 decoration-2 ">About</a>
+        <a href="#contact" class="font-Monts capitalize hover:underline underline-offset-8 decoration-2 ">Contact</a>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="40"
+        width="40"
+        class="fill-white lg:hidden cursor-pointer"
+        id="open-modal"
+      >
+        <path
+          d="M4.5 30.625v-3.5h31.042v3.5Zm0-8.917v-3.5h31.042v3.5Zm0-8.833v-3.5h31.042v3.5Z"
+        />
+      </svg>
+    </div>
+
+    <div class="lg:flex mx-auto lg:items-center lg:w-11/12 mb-24">
+      <div class="mb-6 w-11/12 mx-auto sm:w-9/12">
+        <h1 class="text-4xl font-Lora font-medium mb-6 lg:text-5xl">
+          Modern interior
+        </h1>
+        <p
+          class="w-2/4 text-sm font-Monts font-normal mb-6 lg:text-2xl lg:w-3/5"
+        >
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+
+        <div class="flex justify-between cursor-pointer" style="max-width: 130px">
+          <h2 class="mr-2 font-Monts font-bold inline">Read more</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            height="24"
+            width="24"
+            class="inline hover:translate-x-4 hover:ease-in hover:duration-300"
+            fill="white"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z"
+            />
+          </svg>
+        </div>
+      </div>
+      <section class="w-11/12 mx-auto relative sm:w-9/12">
+        <div class="relative">
+          <img src="./images/photo1.png" alt="" class="mb-6" />
+        </div>
+        <div
+          class="bg-zinc-900 w-10/12 absolute top-3/4 right-4 shadow-shd max-w-xs md:top-[85%] lg:right-[12%]"
+        >
+          <div class="flex items-center pt-2 pb-5">
+            <img
+              src="./images/photo2.png"
+              alt=""
+              class="rounded-full w-11 h-11 mx-6"
+            />
+            <div>
+              <h2 class="font-Monts font-medium text-xs">Aliza Webber</h2>
+              <h6 class="font-Monts font-medium text-xss text-slate-400">
+                Interior designer
+              </h6>
+            </div>
+          </div>
+          <h5 class="mx-6 font-Lora font-bold text-lg pb-4 w-[55%]">
+            Designed in 2020 by Aliza Webber
+          </h5>
+        </div>
+      </section>
+    </div>
+    <hr class="w-11/12 mx-auto mb-4 opacity-25 sm:w-9/12 lg:w-11/12" id="collection">
+    <div>
+      <h1 class="font-Monts font-medium text-3xl text-center uppercase my-10" >Collection</h1>
+      <hr class="w-11/12 mx-auto mb-5 opacity-25 sm:w-9/12 lg:w-11/12">
+      <div class="mb-6 ">
+        <!-- single collection -->
+        <div class="w-11/12 sm:w-9/12 mx-auto bg-zinc-900 mb-10 lg:flex lg:relative lg:w-11/12">
+        <img src="./images/collov-home-design-js8AQlw71HA-unsplash.jpg" alt="" class="max-w-full max-h-full object-scale-down lg:max-w-xl">
+        <div class="bg-white lg:absolute lg:max-w-lg lg:top-1/4 lg:left-[40%] lg:opacity-90">
+          <h2 class="text-black text-right p-1 text-3xl font-Lora font-medium italic">01.</h2>
+         <div class="w-5/6 mx-auto">
+          <h1 class="text-black text-2xl font-Monts font-bold pb-1 ">Collection I</h1>
+          <p class="text-black opacity-50 pb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi eligendi excepturi beatae ullam vel facilis adipisci explicabo nam quaerat nulla! Eveniet a sint sequi voluptate?</p>
+         </div> 
+         <a href="#" class="text-black text-right block text-md font-Lora font-medium italic flex items-center justify-end">To read more <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="m15.625 30.25-2.208-2.208 8.041-8.084-8.041-8.041 2.208-2.25 10.292 10.291Z"/></svg></a>      
+        </div> 
+      </div>
+      <!-- single collection end -->
+        <!-- single collection -->
+      <div class="w-11/12 sm:w-9/12 mx-auto bg-zinc-900 mb-10 lg:flex lg:flex-row-reverse lg:relative lg:w-11/12">
+        <img src="./images/collov-home-design-EIFfvO6MO5w-unsplash.jpg" alt=""  class="max-w-full max-h-full object-scale-down lg:max-w-xl">
+        <div class="bg-white lg:absolute lg:max-w-lg lg:top-1/4 lg:right-[40%] lg:opacity-90"><h2 class="text-black text-left p-1 text-3xl font-Lora font-medium italic">02.</h2>
+          <div class="w-5/6 mx-auto">
+           <h1 class="text-black text-2xl font-Monts font-bold pb-1">Collection II</h1>
+           <p class="text-black opacity-50 pb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi eligendi excepturi beatae ullam vel facilis adipisci explicabo nam quaerat nulla! Eveniet a sint sequi voluptate?</p>
+          </div> 
+          <a href="#" class="text-black text-right block text-md font-Lora font-medium italic flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M23.375 30.25 13.083 19.958 23.375 9.667l2.208 2.25-8.041 8.041 8.041 8.084Z"/></svg>To read more </a>  
+      </div>
+      </div>
+      <!-- single collection end -->
+        <!-- single collection -->
+         <div class="w-11/12 sm:w-9/12 mx-auto bg-zinc-900 mb-10 lg:flex lg:relative lg:w-11/12">
+        <img src="./images/collov-home-design-Z5071-fNXOI-unsplash.jpg" alt="" class="max-w-full max-h-full object-scale-down lg:max-w-xl">
+        <div class="bg-white lg:absolute lg:max-w-lg lg:top-1/4 lg:left-[40%] lg:opacity-90"><h2 class="text-black text-left p-1 text-3xl font-Lora font-medium italic"><h2 class="text-black text-right p-1 text-3xl font-Lora font-medium italic">03.</h2>
+         <div class="w-5/6 mx-auto">
+          <h1 class="text-black text-2xl font-Monts font-bold pb-1">Collection III</h1>
+          <p class="text-black opacity-50 pb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi eligendi excepturi beatae ullam vel facilis adipisci explicabo nam quaerat nulla! Eveniet a sint sequi voluptate?</p>
+         </div> 
+         <a href="#" class="text-black text-right block text-md font-Lora font-medium italic flex items-center justify-end">To read more <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="m15.625 30.25-2.208-2.208 8.041-8.084-8.041-8.041 2.208-2.25 10.292 10.291Z"/></svg></a>      
+        </div> 
+      </div>
+      <!-- single collection end -->
+        <!-- single collection -->
+      <div class="w-11/12 sm:w-9/12 mx-auto bg-zinc-900 mb-10 lg:flex lg:flex-row-reverse lg:relative lg:w-11/12">
+        <img src="./images/collov-home-design-UUsQk_9bdR8-unsplash.jpg" alt="Collection 4"  class="max-w-full max-h-full object-scale-down lg:max-w-xl ">
+        <div class="lg:opacity-90 bg-white lg:absolute lg:max-w-lg lg:top-1/4 lg:right-[40%]"><h2 class="text-black text-left p-1 text-3xl font-Lora font-medium italic">04.</h2>
+          <div class="w-5/6 mx-auto lg:z-0">
+           <h1 class="text-black text-2xl font-Monts font-bold pb-1">Collection IV</h1>
+           <p class="text-black opacity-50 pb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi eligendi excepturi beatae ullam vel facilis adipisci explicabo nam quaerat nulla! Eveniet a sint sequi voluptate?</p>
+          </div> 
+          <a href="#" class="text-black text-right block text-md font-Lora font-medium italic flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M23.375 30.25 13.083 19.958 23.375 9.667l2.208 2.25-8.041 8.041 8.041 8.084Z"/></svg>To read more </a>  
+      </div>
+      </div>
+      <!-- single collection end -->
+    </div>
+    <hr class="w-11/12 mx-auto mb-5 opacity-25 sm:w-9/12 lg:w-11/12" id="about">
+    <div class="mb-6">
+      <h1 class="font-Monts font-medium text-3xl text-center uppercase my-10">About</h1>
+      <hr class="w-11/12 mx-auto mb-5 opacity-25 sm:w-9/12 lg:w-11/12">
+      <h3 class="w-9/12 mx-auto mb-6 font-crimson font-extralight leading-relaxed text-center sm:w-7/12 lg:w-9/12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam possimus ipsum, itaque at vero corrupti. Quasi, quia velit non aut at, tempora illo soluta delectus, aliquam explicabo omnis dolorem nesciunt beatae officia corrupti ab voluptatibus iusto. Consequatur, autem ex illum numquam neque magni distinctio corporis quidem? Iste illo, officia ullam recusandae nobis in aperiam, saepe nemo hic quasi quas quo molestiae totam autem! Culpa consequatur, fuga vel tenetur neque vero minus corrupti veniam eius enim. Officia minima, fuga veritatis itaque dolores porro dolor harum expedita. Pariatur assumenda eligendi, repudiandae, porro eos suscipit corrupti nemo architecto repellendus ducimus delectus illum?</h3>
+      <div class="flex justify-between mx-auto w-52">
+        <a href="#" class="w-10 p-2 rounded-full bg-green-600 text-center"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="w-10 p-2 rounded-full rounded-full bg-blue-600 text-center"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="w-10  p-2  rounded-full  bg-amber-400 text-center"><i class="fab fa-github"></i></a>
+        <a href="#" class="w-10 p-2  rounded-full bg-red-500 text-center"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <hr class="w-11/12 mx-auto mb-5 opacity-25 sm:w-9/12 lg:w-11/12" id="contact">
+    <div class="mb-10 w-11/12 mx-auto sm:w-9/12 lg:w-11/12">
+      <h1 class="font-Monts font-medium text-3xl text-center uppercase my-10">Contact</h1>
+      <hr class="w-full mx-auto mb-5 opacity-25">
+      <div class="lg:flex lg:items-center lg:justify-around w-11/12 mx-auto" >
+        <h2 class="text-3xl text-center mb-10 lg:text-6xl lg:text-left tracking-wider lg:leading-none">Have a project?<span class="block"> We would love to help.</span></h2>
+        <div class="bg-zinc-800 rounded-xl lg:w-1/2">
+          <p class="text-center py-4 my-4 text-2xl font-Lora opacity-80">Contact Us</p>
+          <form action="" class="px-10 overflow-hidden pb-12 ">
+            <input type="text" placeholder="Your Name" class="w-full bg-transparent font-Lora border-b-2 opacity-50 outline-none mb-10 pb-2 ">
+            <input type="text" placeholder="Your Email" class="w-full bg-transparent font-Lora border-b-2 opacity-50 outline-none mb-10  pb-2">
+            <input type="text" placeholder="Tell us about your project" class="w-full bg-transparent font-Lora border-b-2 opacity-50 outline-none mb-10  pb-2 caret-orange-300">
+            <button class="bg-white text-black py-2 px-4 rounded-sm font-Monts font-extrabold hover:bg-transparent hover:text-white border hover:ease-in hover:duration-300">Send request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-zinc-800 w-full h-14 flex items-center justify-center">
+      <h4 class="text-center font-crimson text-lg">Copyright &copy; <span class="year">2020</span> </h4>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./all.js"></script>
+  </body>
+</html>
